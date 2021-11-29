@@ -1,0 +1,21 @@
+Developer: Arya Amin
+Division D1
+Roll No. - 200050014
+
+MAZE
+
+I have created 3 subclasses of Shape that is MyCircle, MyLine, MyRectange.
+
+Here Myline is used to create the walls of the maze, circle to create the player, and rectangle to create the final checkpoint that is the final destination.
+
+In the class Shape I have declred 4 new functions which are
+refreshr,refreshl,refreshu and refreshd so the refreshr fucntion activates when the right key is pressed on the keyboard and thus the ball moves right and so on for other 3 functions also.
+
+In the 4 refresh functions I have mentioned an if statement that is the value of x and y coordinate gets equal to that of the wall's than the ball should not move to that point this restricts the movement of the ball through the walls and the borders.
+
+Next if the balls reaches the green spot then the command line prints WON and the game exits by exit(0) function.
+
+I have divided the 450*450 window into 9*9 blocks of 50 length and this points are then used to create all the walls.
+
+The ball is controlled by the keyboard so it can move in any direction in the 2D plane with moving 5 length per keypress.
+ 
